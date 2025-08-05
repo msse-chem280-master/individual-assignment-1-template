@@ -12,8 +12,8 @@ This assignment is worth 8% of your grade and will be graded out of 20 points.
     <td>
         <p>Integrand Functions</p>
         <ul>
-            <li>`integrand_pi(x)` correctly returns 1 / (1 + x^2)</li>
-            <li>`integrand_second(x)` correctly returns 10 / (1 + 100x^2)</li>
+            <li>`integrand_pi(x)` correctly calculates 1 / (1 + x^2)</li>
+            <li>`integrand_second(x)` correctly calculates 10 / (1 + 100x^2)</li>
         </ul>
     </td>
     <td>
