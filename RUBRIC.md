@@ -4,69 +4,108 @@ This assignment is worth 8% of your grade and will be graded out of 20 points.
 
 <table>
 <tr>
-    <th>
-        Task
-    </th>
-    <th>
-        Points
-    </th>
-<tr>
-<tr>
-    <td>
-        <p>Python Script</p> 
-        <ul>
-            <li>Script written in function named `estimate_pi`
-            <li>Function takes in number of points and returns estimated value.
-            <li> Assignment saved in file called `assignment.py`
-            <li> Script successfully uses MC integration to estimate value.
-        </ul>
-    </td>
-    <td>
-        <p>8 points total</p>
-        <ul>
-            <li> 1 point
-            <li> 1 point
-            <li> 1 point
-            <li> 5 points
-        </ul>
-    </td>
+    <th>Task</th>
+    <th>Points</th>
 </tr>
+
+<tr>
     <td>
-        <p>Testing</p> 
+        <p>Integrand Functions</p>
         <ul>
-            <li>Three test cases
+            <li>`integrand_pi(x)` correctly returns 1 / (1 + x^2)</li>
+            <li>`integrand_second(x)` correctly returns 10 / (1 + 100x^2)</li>
         </ul>
-    </td>
-    <td>
-        <p>3 points total</p>
-    </td>
-</tr>
-<tr>
-    <td>
-        <p>Documentation</p>
-        <ul>
-            <li>README explains code and how to use it & test cases.
-            <li>Inline code comments        
-    </td>
-    <td>
-        <p>7 points total</p>
-        <ul>
-            <li>6 points
-            <li>1 point        
-    </td>
-</tr>
-<tr>
-    <td>
-        <p>Repository Presentation</p>
-        <ul>
-            <li>Clean files (no extra or repeated files)
-            <li>Descriptive commit messages       
     </td>
     <td>
         <p>2 points total</p>
         <ul>
-            <li>1 point
-            <li>1 point        
+            <li>1 point</li>
+            <li>1 point</li>
+        </ul>
     </td>
 </tr>
+
+<tr>
+    <td>
+        <p>Estimation Functions</p>
+        <ul>
+            <li>`estimate_pi(num_points)` uses Monte Carlo and `integrand_pi`</li>
+            <li>`estimate_second_integral(num_points)` uses Monte Carlo and `integrand_second`</li>
+        </ul>
+    </td>
+    <td>
+        <p>6 points total</p>
+        <ul>
+            <li>3 points</li>
+            <li>3 points</li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <p>Testing</p>
+        <ul>
+            <li>At least 3 total test cases using `assert`</li>
+            <li>Each estimation function tested at least once</li>
+        </ul>
+    </td>
+    <td>
+        <p>4 points total</p>
+        <ul>
+            <li>2 points</li>
+            <li>2 points</li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <p>Code Clarity and Comments</p>
+        <ul>
+            <li>Clear, readable structure and names</li>
+            <li>Inline comments explain logic</li>
+        </ul>
+    </td>
+    <td>
+        <p>4 points total</p>
+        <ul>
+            <li>2 points</li>
+            <li>2 points</li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <p>Documentation</p>
+        <ul>
+            <li>README Explains what the code does and how to run it</li>
+            <li>Functions have docstrings</li>
+        </ul>
+    </td>
+    <td>
+        <p>2 points total</p>
+        <ul>
+            <li>1 point</li>
+            <li>1 point</li>
+        </ul>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <p>Version Control</p>
+        <ul>
+            <li>Descriptive commit messages</li>
+        </ul>
+    </td>
+    <td>
+        <p>2 points total</p>
+        <ul>
+            <li>2 points</li>
+        </ul>
+    </td>
+</tr>
+
 </table>
