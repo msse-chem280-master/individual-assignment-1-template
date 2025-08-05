@@ -85,10 +85,10 @@ This assignment is worth 8% of your grade and will be graded out of 20 points.
         </ul>
     </td>
     <td>
-        <p>2 points total</p>
+        <p>3 points total</p>
         <ul>
-            <li>1 point</li>
-            <li>1 point</li>
+            <li>1.5 point</li>
+            <li>1.5 point</li>
         </ul>
     </td>
 </tr>
@@ -101,9 +101,9 @@ This assignment is worth 8% of your grade and will be graded out of 20 points.
         </ul>
     </td>
     <td>
-        <p>2 points total</p>
+        <p>1 points total</p>
         <ul>
-            <li>2 points</li>
+            <li>1 points</li>
         </ul>
     </td>
 </tr>
